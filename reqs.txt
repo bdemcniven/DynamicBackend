@@ -1,0 +1,9 @@
+qiskit==1.2.4
+qiskit-aer==0.15.1
+qiskit-algorithms==0.3.0
+qiskit-dynamics==0.5.1
+qiskit-experiments==0.6.1
+qiskit-ibm-experiment==0.4.8
+qiskit-ibm-runtime==0.29.0
+qiskit-machine-learning==0.7.2
+qiskit-nature==0.7.2
