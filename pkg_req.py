@@ -1,6 +1,5 @@
 #See here for further details: https://qiskit-community.github.io/qiskit-dynamics/tutorials/dynamics_backend
 
-
 from qiskit import transpile, pulse
 from qiskit_dynamics import DynamicsBackend, Solver
 from qiskit import QuantumCircuit, QuantumRegister, transpile, ClassicalRegister, result
@@ -26,6 +25,9 @@ from qiskit_algorithms.optimizers import ADAM, SPSA, NFT
 import random
 import numpy as np
 import jax
+import qiskit
+import qiskit.pulse
+from qiskit.quantum_info import DensityMatrix, state_fidelity
 
 
 
